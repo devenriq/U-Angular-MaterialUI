@@ -10,19 +10,19 @@ import { MaterialModule } from "./material.module";
 import { ComponentsModule } from './components/components.module';
 
 
-
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,
+
     AppRoutingModule,
+    AppRoutingModule,
+    BrowserModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule,
-    MaterialModule,
     ComponentsModule,
-    AppRoutingModule
+    MaterialModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
